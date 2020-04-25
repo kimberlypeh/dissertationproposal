@@ -1,0 +1,177 @@
+\documentclass [11pt]{article}
+
+\title{The Twilight of Post-Conflict `Peace': Explaining Electoral Violence and Escalation in Severity}
+\author{Kimberly Peh}
+\date{\today}
+
+\usepackage{hanging,verbatim,geometry,rotating,graphics,epigraph,afterpage,url,pdfpages,pifont}
+\usepackage{etex,tikz,xcolor,verbatim,geometry,afterpage,float}
+\usepackage{rotating}
+\usepackage{pgfplots}
+\usepgflibrary{arrows.meta} % need this for arrow tips
+\pgfplotsset{width=10cm,compat=1.14}
+\usetikzlibrary{datavisualization}
+\usepgfplotslibrary{statistics} 
+\usepackage{Times}
+
+\geometry{height=8in, width=5in}
+
+\usepackage[utf8]{inputenc}
+
+\setlength{\epigraphwidth}{.8\textwidth} \setlength{\epigraphrule}{0pt}
+
+\urlstyle{same}
+
+\lefthyphenmin=2
+\righthyphenmin=3
+
+\brokenpenalty=10000 % No broken words across columns/pages
+\widowpenalty=10000 % No widows at bottom of page
+\clubpenalty=10000 % No orphans at top of page
+
+\begin{document}
+\maketitle
+
+\section*{Introduction} % Extent - type and deaths; IV is already conceptualized in Chapter I; argument and hypotheses % QCA -- add my own variable; prior democracy is not a good measure of EV (polity issues and violence-nonviolence issue) % severity -- deaths; side hypotheses: patterns of violence - involved actors; targets
+
+\epigraph{we call attention to violence as an element integral to the configuration of those institutions, as a necessary component of their maintenance, and as an instrument for popular challenges to their legitimacy}{\emph{Enrique Desmond Arias and Daniel M. Goldstein}} % p. 4
+
+Since the end of the Cold War, virtually all post-conflict states conduct elections, and virtually all of these elections (alongside others held in the developing world) received some form of international assistance (Von Borzyskowski 2019, 5; 149). While local actors such as rebels and civil society organizations may call for elections, the international community is the primary reason for the normalization of elections in post-conflict peacebuilding operations. In theory, elections can substitute wars by offering a non-violent platform for political competition (Dunning 2011). In practice, the conduct of elections is also an ``exit strategy'' that gives international interveners an end point to their operations (Reilly 2017), and allows them to claim that power has been handed over to a popularly elected authority (Reilly 2008, 167). The problem, however, is that electoral results are not always `popular' outcomes and elections are rarely used at the local level in a democratic manner that is imagined by the international community.
+
+States, rebels, and rebel-turned parties have manipulated elections and violently challenged electoral outcomes (Von Borzyskowski 2019; Birnir and Gohdes 2018; Lyons 2016; Ishiyama 2016; Harris 2012); non-democratic actors like criminal groups and paramilitaries have fought to prevent or distort elections (Taylor, Pevehouse and Straus, 2017; Brahimi 2007); and civilians from different sides have used force against opposition supporters. Certaily, one can hardly describe elections that are infused with violence as democratic; yet, in post-conflict states, as in many developing countries, the threat or actual use of force during electoral cycles is a relatively common phenomenon (von Borzyskowski 2019). Against the backdrop of such violence, this chapter examines the question: how does the quality of elections affect the severity of violence in post-conflict states?
+
+To answer this question, this chapter looks at the quality of an election, defined as the extent to which an election is (non)violent, both before and after an election. These two periods are usually analyzed separately (exceptions include Daxecker 2014; 2012), presumably because the motivation and pattern of violence are different across both periods (Birch, Daxecker and Höglund 2020; Daxecker, Amicarelli and Jung 2019; von Borzyskowski 2019). However, in theory, actors' behavior prior to an election should have an effect on others' behavior at a later period. Thus, this chapter argues that the effect of electoral quality on the severity of violence is contingent upon the interaction between the degree of pre- and post-election violence. Specifically, the severity of violence (i.e. the extent of fatality) is expected to be higher where the quality of election is low both before and after an election than where the quality is low only during the post-election period.
+
+This argument rests on two empirical observations. The first observation is that pre-electoral violence is usually due to actors' attempt at tilting the playing field, and the second is that post-electoral violence is usually due to actors' dissatisfaction with the electoral outcome. Where only post-electoral violence takes place, voters might regard the elected government as legitimate but not the contender's cause; hence, subsequent violence can quickly peter out due to a lack of resources to sustain the contention. Conversely, the occurrence of both pre- and post-electoral violence can be symptomatic of a close fight between the contenders, which signals, in turn, a polarized society either due to political actors' effort at emphasizing cleavages or a corresponding division within the population. If so, violence among conflict actors can be actively supported by loyal members within the society, thereby intensifying the level of competition. 
+
+The correlation posited here is somewhat consistent with a finding in the literature, that is, the likelihood of post-election violence increases when fraudulent elections are condemned by international observers (von Borzyskowski 2019; Daxecker 2012). In post-conflict settings, challengers to stolen elections are likely to be rebel groups, if not extremists or splinter groups which tend to adopt an even more hardline position than the initial conflict actors. Thus, if pre-election fraud is likely to lead the state and rebels to re-engage in violence, then the tendency to escalate the severity of violence should be imaginably higher than when a cause for a two-sided re-engagement is absent.
+
+To continue with a discussion on the existing literature, the next section explains how this chapter contributes to the current scholarship on post-conflict elections and civil war recurrence. The subsequent section then describes how this chapter plans to study the argument by detailing the means by which the variables are defined and measured. The final section concludes with some next steps.
+
+\section*{Literature Review} 
+
+This study contributes to the literature in two ways.
+
+Severity rather than recurrence
+Theorizing the effect of elections itself -- in this case, quality -- and focuse on the mechanisms that result rather than from conditions that may surround the conduct of elections
+
+%Notwithstanding its strengths, this literature also suffers from several theoretical and methological limitations, of which, three will be discussed in this section. The first and second relate to the arguments put forth by proponents of the state- or the institution-building paradigm. A key assumption underlying this argument is that a strong state, composed of strong institutions, is a necessary condition for democracy (Brancati and Snyder 2012; Grimm and Merkel 2008; Hippler 2008; Paris 2004; Kumar 1998; Boutros-Ghali 1996, 8). Some scholars cite, for example, Larry Diamond (2006: 94), who writes that `Before a country can have a democratic state, it must first have a state.'' Others quote Juan Linz and Alfred Stepan (1996, 17), who famously state that `without a state, no modern democracy is possible.'' Still others refer to Samuel Huntington (1968: 4), who highlights the relationship between violence and the ``slow development of political institutions.''
+
+%In this research agenda, state-building is therefore the priority that is to precede democratization (hence the state-building approach is also known as the sequentialist approach), and it is, importantly, a necessary condition for preventing democratic efforts (specifically, elections) from undermining peace and democracy (Reilly 2017; de Zeeuw 2008). Yet, research thus far has not truly tested the necessity of the state as a precondition. Statistical analyses using hazard models and logit regression are the norm, and they test rather the extent to which institutions such as demobilization programs, power-sharing agreements, and rule of law, influence recurrence or democratic outcomes than the degree of constraint these institutions impose on the possibility of attaining these goals (see Goertz and Mahoney 2012).
+
+%Dawn Brancati and Jack Snyder (2012, 828-9) suggest an alternative to the necessary condition perspective. According to them, several individually necessary conditions may be jointly sufficient in facilitating the success of post-conflict elections. They write,
+
+%\begin{quote}
+%\small
+%Early elections are less risky when one side has won a decisive military victory since the losing side lacks the ability to return to fighting if it fares poorly in the election. In the absence of a decisive victory, demobilization of one or both sides, or their integration into a new army, can mitigate the risk of early elections. Successful demobilization is a complicated and lengthy process \dots Strong bureaucratic institutions and generous financing are needed to facilitate demobilization. The development of robust administrative institutions, international peacekeeping, and economic development can also facilitate this process (Doyle and Sambanis 2006; Fortna 2008b). Of these factors, peacekeepers are more likely to be in place if elections are held soon after war ends, whereas the other factors are more likely to be favorable if elections are held later.
+%\end{quote}
+
+%Carrie Manning and Ian Smith (2016, 973) make clear the gap between such a theoretical view and the methodological practice when they state that ``[w]hile most statistical treatments assume that independent variables are largely independent of one another, we know that empirically the variables we identify are linked to one another in complex ways, and the impact of one factor is likely to be contingent on the presence of others.'' Indeed, despite recognizing the possibility of causal complexity (see Goertz 2017, Chapter 3), Dawn and Snyder (2012) proceeded with a logit analysis, which analyzes the net effect of each variable, \emph{ceteris paribus}. Overall, therefore, there is a theoretical and methodological gap in the literature wherein neither the necessity nor the jointly sufficient expectation of the explanatory conditions is tested.
+
+
+
+\section*{Argument}
+
+The phenomenon under investigation in this paper is the process of escalating to wars, and specifically, the process of escalating from the twilight zone toward 1,000 annual deaths. The relevant literature that explains the occurrence of this phenomenon is the civil war recurrence literature. It offers three main sets of arguments.
+
+The first posits that conflict actors fight again after wars have terminated, which means to have ended via a ceasefire, a peace agreement, a military victory or to have ceased sustaining 25 annual battle deaths, because they see wars as a means to gaining more economic or political power (Collier and Hoeffler 2004; Fearon and Laitin 2003). The second attributes the cause to unresolved grievances such as political, social or economic marginalization (Lu and Thies 2011; Wimmer, Cederman and Min 2009; Brubaker and Laitin 1998). Finally, the third proposes that wars re-ignite because key institutions are absent in these so-called post-conflict situations. Often, these institutions refer to a high level of state capacity; security reform; rule of law; executive constraints; constitutions, parliamentarianism; power-sharing; free media; accountable transitional justice processes; or elections (Nathan 2019; Choi and Kim 2018; Trejo, Albaraccín and Tiscornia 2018; Hartzell 2017; Lake 2017; Walter 2015; Joshi 2013; Hoddie and Hartzell 2010; Paris 2004; Fearon and Laitin 2003).
+
+This paper narrows in on the electoral dimension of the debate, and specifically, on electoral violence. Electoral violence is defined here as violence which is used by political actors to forcefully influence the outcome or the process of an election. Such violence can happen at any time during an electoral cycle; can take the form of threats or the actual use of force; and can be acted upon by the state or non-state actors (Birch, Daxecker and Höglund 2020: 4). As mentioned in the introduction, elections are important because they have become the normal way to end a war and to elect a government since the 1990s. In twilight zones, where violence persists as a means to compete for power, the institutionalization of an election thus means the likely co-existence of both ballots and bullets within the same arena (Norris, Frank and Coma 2015; Lyons 2004; Brown 1998; Ottaway 1998). In these zones, moreover, because the above-mentioned institutions are often weak, if not absent, the likelihood of elections turning violent and escalating into a repeated war is high (Keels 2017; Joshi, Melander and Quinn 2017; Reilly 2017; Flores and Nooruddin 2012; Brancati and Snyder 2012). Yet, despite the risk, existing works suffer from not illuminating enough on the steps by which electoral violence leads to the eventual outcome of repeated wars.
+
+
+
+
+% it is important to understand that, for perpetrators, election violence
+is a strategic tool, used to influence political processes. It is a tool of political competition
+employed to maximize the chances of winning the election. It should
+therefore come as no surprise that election violence is usually orchestrated by
+politicians, particularly incumbent politicians or their affiliates.
+Vonn Borzyskowski 2019 35
+
+Pre-election violence has different motivations than post-election
+violence. Pre-vote violence is used by political actors (the government or opposition
+forces) to influence vote choice and turnout. In contrast, post-vote violence
+usually erupts in reaction to the announced result, as the loser violently challenges
+the election outcome or the winner violently represses a peaceful loser
+challenge. 36
+
+
+\section*{Dependent Variable}
+
+Prior experience with civil war is one of the most consistent predictors of future civil wars. Civil wars have in general a 20 percent chance of recurrence, and recurrences occupy the majority of the civil wars since 2000 (Walter 2015; Call 2012; Suhrke and Samset 2007). Thus, in contrast to onset, recurrences are a bigger concern in the study of contemporary civil wars.
+
+However, the term ‘recurrence’ is itself somewhat of a misnomer. Conceptually, when scholars discuss recurrence, they are referring to the re-occurrences of war in ‘post-conflict’ states where there supposedly exists some form of peace, or more accurately, the termination of direct violence or war (Call 2012, 8; Galtung 1969). Empirically, these situations of ‘relative peace’ have been taken to mean the cessation of hostilities or the absence of sustained violence (Letsa 2017; Kreutz 2016; Walter 2015; Sambanis 2004). From these empirical definitions of ‘relative peace’, a problem of concept-measure inconsistency arises when many of these situations are not in fact peaceful (Montoya 2018; Barma 2017; Caplan and Hoeffler 2017; Knowlton 2017; Arias and Goldstein 2010). Sometimes, these cases go on to incur deaths ranging from one to the thousands, and they would have dropped out of datasets only because these deaths lie below a certain threshold of violence (often set at 25 or 1,000 deaths); are not attributable to organized armed groups; or have simply not been sustained over a given period.
+
+Few post-conflict states may be said to have crossed any threshold of democratic transition, and even those praised as `beacons of democracy' remain shrouded in violence. In El Salvador (Montoya 2018, 4), 
+
+\begin{quote}
+\small
+``ordinary Salvadorans often described the postwar moment as one of ‘neither war nor peace’ or one even ‘worse than the war’ (Montoya 2007; Moodie 2010: 84). In invoking the war as a constant point of reference against which the present was assessed, such statements called into question the country’s transition to democracy.''
+\end{quote}
+
+Similarly, in Guatemala (Knowlton 2017, 140),
+
+\begin{quote}
+``the state’s counterinsurgency violence [transformed] into a kind of state-supported violence in which government institutions act at the behest of national and transnational agribusinesses and mining companies to evict Q’eqchi’ from their traditional territories. In many cases the Guatemalan military and the National Civilian Police act as accomplices, accompanying and legitimizing evictions and acts of violence against Q’eqchi’ [a minority group in Guatemala] individuals and communities.''
+\end{quote}
+
+
+
+
+This paper thus applies the concept of escalation—the “intensification of a conflict with regard to the observed extent and the means used” (Bösch 2017)—to better reflect the ongoing dynamic of violence. A first advantage of reframing the re-occurrence of war as an escalation is that it does not assume ex ante that conflict actors were operating in a situation of relative peace. Secondly, ‘escalation’ re-centers the empirical focus onto the process leading up to a war. Existing methods (e.g. event history models, hazard models, and logistic models) which are widely adopted to investigate recurrence largely revolve around analyzing whether wars have recurred or the duration of peace. These efforts have contributed to the identification of key explanatory conditions; however, they are often vague about the steps that propel these causes to war. Hence, we know less well about the variability underlying the process of re-ignition, and specifically, how these processes unfold.
+
+The next section discusses in greater detail what escalation is and how it will be measured. The subsequent section narrows in on the escalation process toward wars – the key phenomenon of interest in this paper. This section proposes to analyze this escalation process through the angle of electoral violence. The adoption of this angle is particularly appropriate in the ‘post-conflict’ context, which this paper calls the twilight zone. As mentioned, instead of peace, countries that have had experienced conflicts or wars are more often lingering in a non-peace non-war zone wherein low-intensity violence persists. After the end of the Cold War, such violence has played out in electoral grounds because elections have, due to liberal peacebuilding efforts (Paris 2004), become the normal way to end a war, elect a government, and most importantly, compete for power (Reilly 2017). Even though electoral violence more often generates low death tolls (Straus and Taylor 2012), it has precipitated civil wars in places like Afghanistan; Aceh, Indonesia; Algeria; and Guatemala. As more evidence accrues that points towards an association between the two phenomena (Keels 2017; Reilly 2017; Flores and Nooruddin 2012; Brancati and Snyder 2012), a further study of the process becomes a worthwhile endeavor.
+
+Concept: Escalation
+
+The process of escalation is a complex one. For conflicts – a phenomenon that is an inevitable outcome of human interaction  – to spiral into a social concern, multiple steps like identity and issue formation, blame attribution and resource mobilization have to take place before violence is legitimized, organized and executed at the societal level (Bösch 2017; Tilly and Tarrow 2015; Varshney 2007; Wood 2004; Javeline 2003; Lichbach 1995; Gurr 1980). That said, notwithstanding its complexity, the core of the concept can be summarized by the notion of intensification, specifically in the areas of means (violence or non-violence) and the extent of such means of contention.
+
+The centrality of these two dimensions is observed most clearly in the study of inter-state disputes. In the most popular dispute dataset, the Militarized Interstate Dispute (MIDs) Data, hostility levels are arranged precisely according to the probability of war occurrence, with no militarized action being coded as the lowest level, followed by the threat to use force, the display of force, the actual use of force, and finally, war (Ghosn and Bennett 2007, 6). Goertz and Diehl (2001, 291) make explicit the importance of both dimensions when they multiply the MID hostility levels with fatalities to create the dispute severity index. In so doing, they convey through the index both the means, which is captured by the MIDs level, and the extent, which is represented by the number of casualties.
+
+Figure 1 illustrates the concept of escalation diagrammatically. In this paper, only the extent of casualties will be analyzed because all cases, which are taken to be in the twilight zone of neither peace nor war, would already be experiencing some level of violence. In other words, the process of escalating from non-violence to violence is irrelevant within the context of most ‘post-conflict’ states.
+
+
+
+\section*{Independent Variable and Pathway}
+
+
+
+
+
+
+
+
+
+
+
+\section*{Conclusion}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
