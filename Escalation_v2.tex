@@ -1,0 +1,119 @@
+\documentclass [11pt]{article}
+
+\title{The Contingent Effect of Electoral Quality on Violence Severity}
+\author{Kimberly Peh}
+\date{\today}
+
+\usepackage{hanging,verbatim,geometry,rotating,graphics,epigraph,afterpage,url,pdfpages,pifont}
+\usepackage{etex,tikz,xcolor,verbatim,geometry,afterpage,float}
+\usepackage{rotating}
+\usepackage{pgfplots}
+\usepgflibrary{arrows.meta} % need this for arrow tips
+\pgfplotsset{width=10cm,compat=1.14}
+\usetikzlibrary{datavisualization}
+\usepgfplotslibrary{statistics} 
+\usepackage{Times}
+
+\geometry{height=8in, width=5in}
+
+\usepackage[utf8]{inputenc}
+
+\setlength{\epigraphwidth}{.8\textwidth} \setlength{\epigraphrule}{0pt}
+
+\urlstyle{same}
+
+\lefthyphenmin=2
+\righthyphenmin=3
+
+\brokenpenalty=10000 % No broken words across columns/pages
+\widowpenalty=10000 % No widows at bottom of page
+\clubpenalty=10000 % No orphans at top of page
+
+\begin{document}
+\maketitle
+
+\section*{Introduction} % Extent - type and deaths; IV is already conceptualized in Chapter I; argument and hypotheses % QCA -- add my own variable; prior democracy is not a good measure of EV (polity issues and violence-nonviolence issue) % severity -- deaths; side hypotheses: patterns of violence - involved actors; targets
+
+\epigraph{we call attention to violence as an element integral to the configuration of those institutions, as a necessary component of their maintenance, and as an instrument for popular challenges to their legitimacy}{\emph{Enrique Desmond Arias and Daniel M. Goldstein}} % p. 4
+
+Since the end of the Cold War, virtually all post-conflict states conduct elections, and virtually all of these elections (alongside others held in the developing world) received some form of international assistance (Von Borzyskowski 2019, 5; 149). While local actors such as rebels and civil society organizations may call for elections, the international community is the primary reason for the normalization of elections in post-conflict peacebuilding operations. In theory, elections can substitute wars by offering a non-violent platform for political competition (Dunning 2011). In practice, the conduct of elections is also an ``exit strategy'' that gives international interveners an end point to their operations (Reilly 2017), and allows them to claim that power has been handed over to a popularly elected authority (Reilly 2008, 167). The problem, however, is that electoral results are not always `popular' outcomes and elections are rarely used at the local level in a democratic manner that is imagined by the international community (Birch, Daxecker and Höglund 2020).
+
+States, rebels, and rebel-turned parties have manipulated elections and violently challenged electoral outcomes (Von Borzyskowski 2019; Birnir and Gohdes 2018; Lyons 2016; Ishiyama 2016; Harris 2012); non-democratic actors like criminal groups and paramilitaries have fought to prevent or undermine elections (Taylor, Pevehouse and Straus, 2017; Brahimi 2007); and civilians from different sides have used force against opposition supporters. Certainly, one can hardly describe violent elections as democratic; yet, due to the prevalence of arms in post-conflict states, the threat or actual use of force during electoral cycles (i.e. electoral violence) is relatively common (von Borzyskowski 2019; Höglund 2009). Against the backdrop of such violence, this chapter examines the question: how does the quality of elections affect the severity of violence in post-conflict states? % the focus is on EV, but use quality of elections as IV because the theory suggests that the pre-election period can be non-violent
+
+To answer this question, this chapter looks at the quality of an election, defined as the extent to which an election is (non)violent, both before and after an election. These two periods are usually analyzed separately (exceptions include Daxecker 2014; 2012), presumably because the motivation and pattern of violence are different across both periods (Birch, Daxecker and Höglund 2020; Daxecker, Amicarelli and Jung 2019; von Borzyskowski 2019). However, in theory, actors' behavior prior to an election should have an effect on others' behavior at a later period. Thus, this chapter argues that the effect of electoral quality on the severity of violence is contingent upon the interaction between the degree of pre- and post-election violence. Specifically, the severity of violence (i.e. the extent of fatality) is expected to be higher where the quality of election is low both before and after an election than where the quality is low only during the post-election period.
+
+This argument rests on two empirical observations. The first is that the motivation for pre-electoral violence usually stems from actors' attempt at tilting the playing field. The second is that post-electoral violence is usually due to a winner's decision to repress a loser or a target group, or a loser's dissatisfaction with the electoral outcome. Considering these motivations, it is imaginable that the occurrence of both pre- and post-electoral violence signify a close fight between the contenders; thus, if violence ensues, parties are more likely to return to a state of war where they meet each other in a head-to-head confrontation.
+
+The extent of lethality is likely to be lower but also more nuanced where only post-electoral violence happens. If violence arises because of repression, severity may be reduced because such violence tends to be more targeted. However, if violence occurs due to a loser's dissatisfaction, voters (and potentially external supporters) might regard the perpetrator's cause as unjust, and hence, refuse to provide such support that may be needed to sustain the contention. In short, the severity of violence is broadly conditioned on the interaction between pre- and post-election quality, and specifically on the mix between them and the identity of the perpetrator.
+% read more about one-sided conflicts: (1) can they happen at the same time as civil wars; (2) are cases where there are only post-electoral violence more likely to be one-sided conflicts? can one-sided conflicts happen in both conditions (best, if so, if one-sided conflicts do happen while civil wars occur)? are one-sided conflicts more severe than civil wars (if so, and if post-EV only cases tend to be one-sided, the empirical data would contradict the theoretical logic)?
+% Non-state conflicts killed two to five times fewer people on average than did state-based conflicts. The reported deaths from one-sided violence were lower still. (resdal.org/ing/ultimos-documentos/part2-text2.pdf)
+% Levels of one-sided violence remained stable in 2017, with approximately 7,000 deaths (but more actors committing one-sided violence). (https://reliefweb.int/sites/reliefweb.int/files/resources/Dupuy%2C%20Rustad-%20Trends%20in%20Armed%20Conflict%2C%201946%E2%80%932017%2C%20Conflict%20Trends%205-2018.pdf)
+
+%The correlation posited here is somewhat consistent with a finding in the literature, that is, the likelihood of post-election violence increases when fraudulent elections are condemned by international observers (von Borzyskowski 2019). In post-conflict settings, challengers to stolen elections are likely to be rebel groups, if not extremists or splinter groups which tend to adopt an even more hardline position than the initial conflict actors. Thus, if pre-election fraud is likely to lead the state and rebels to re-engage in violence, then the tendency to escalate the severity of violence should be imaginably higher than when a cause for a two-sided re-engagement is absent.
+
+The next section explains how this chapter contributes to the current scholarship on post-conflict elections and civil war recurrence. The subsequent section then elaborates on the argument and describes how this chapter plans to study the argument. The final section concludes with some next steps.
+
+\section*{Moving beyond Recurrence and Conditions} % rename 
+
+This study contributes to the literature in two ways. The first concerns the outcome of interest, violence severity, which is defined as the number of deaths due to the use of force. A more common phenomenon of study that pertains to post-conflict states is civil war recurrence, where a civil war is frequently defined as an armed conflict that has led to:
+
+\begin{quote}
+\small
+``more than 1,000 deaths overall and in at least a single year; challenges the sovereignty of an internationally recognized state; occurs within the recognized boundary of that state; involves the state as a principal combatant; includes rebels with the ability to mount organized armed opposition to the state; and has parties concerned with the prospect of living together in the same political unit after the end of the war (Doyle and Sambanis 2000, 783).''
+\end{quote}
+
+A civil war defined as such is then regarded as a recurrence based on a mix of criteria comprising the actors, the issue and the duration of peace. Nicolas Sambanis (2004, 830-1), for instance, codes a civil war as a recurrence if the same conflict actors fight over the same incompatibility after six months of peace following a peace treaty, or at least two years of peace after the conclusion of a truce or a ceasefire agreement. Peace, in this definition, refers to the absence of battle-related deaths or fewer than 100 deaths per annum (Sambanis 2004, 830).
+
+A first problem with using the term `recurrence' and conceptualizing recurrence as such is that the term itself is somewhat of a misnomer. In the first place, the recording of a hundred deaths a year is hardly a situation of peace. Even if the death toll is not as high as that of a civil war, the persistence of lower level activities between conflict actors indicates that the conflict has yet to end. Hence, rather than an evolution that begins from termination to re-occurence, the situation can be better described as violence that varies at differing levels of activity.
+
+A second problem with using a threshold of 1,000 deaths per annum is that it leads scholars to operationalize civil war recurrence based on whether it has occurred, or not. While this dichotomy helps in coding if a thousand deaths is reached within a year, it loses information on such conflict dynamics as the number of deaths and the persistence of armed clashes that may have preceded the recurrence. Furthermore, when scholars pair this dichotomous measure of civil war with the appropriate statistical methods like hazard models, duration models, and logit regressions, a related conceptual problem arises. Using these models, results are interpreted in terms of the duration of peace (leading up to a recurrence), or the risk or likelihood of a peace failure. Yet, the periods leading up to recurrence in a post-conflict setting can hardly be described as peaceful, especially if violence is occurring at levels that merely fall short of the 1,000 annual deaths threshold.
+
+Therefore, a concept like severity can be an improvement because it does not assume ex ante that conflict actors were operating in a situation of peace, however defined. Moreover, it takes into account the potential persistence of violence in a `post-conflict' environment, although it is not truly post-conflict if violence prevails (Goertz et al 2020; von Borzyskowski 2019; Montoya 2018; Barma 2017; Caplan and Hoeffler 2017; Knowlton 2017; Arias and Goldstein 2010), and thus allows for a more textured analysis that captures the variance in conflict dynamics over time and across conflicts.
+
+The second contribution relates to this chapter's focus on electoral quality. An increasing volume of research in the post-conflict peacebuilding literature finds that the holding of elections is associated with a higher risk of civil war recurrence. However, the majority of scholars explains this relationship through either institutional design or the conditions within which these elections are embedded. Dawn Brancati and Jack Snyder (2012), for instance, suggest that recurrence is more likely if elections are held too early, or if conflict-mitigating conditions such as a military victory, a demobilization program, a peacekeeping operation, power sharing arrangements, and strong institutions are weak or absent in the country. Others add that the absence of prior democratic experience, the presence of oil or high levels of turnout can also fuel recurrence (Keels 2017; Letsa 2017; Flores and Nooruddin 2012). As such, space remains for a theory that focuses on the way actors use and react to electoral processes and outcomes; such a theory can be particularly interesting in a post-conflict setting since many actors are prone to using elections in a non-democratic manner.
+
+\section*{Conditioning on Electoral Quality: The Role of Time and Actors' Behavior} % rename
+
+Theoretically, elections can be useful in advancing peace and democracy in post-conflict settings because they provide political contenders with a non-violent means of competition. Additionally, because they give voters a platform to participate and indicate their support, or the lack of, for the contending parties, they confer upon the winner some level of popular legitimacy (Höglund 2009, 414). Finally, due to their likely inclusion in a state's law following the growing international pressure to conduct post-conflict elections, they confer also legal legitimacy upon the elected state. Yet, in practice, these values of an election can diminish if its process or outcome is compromised.
+
+Conflict actors, including the state, can be driven to violently manipulate elections or contest electoral results in a post-conflict environment. A reason for undermining the quality of an election, defined by the extent to which an election is conducted (non)violently, can be traced to the high stakes involved in post-conflict elections. Winners might, for instance, institutionalize policies that limit competition or use state power to pursue a victor's justice (Lyons 2016; Bothmann 2015; Höglund 2009). Hence, losers can end up in a position that is worse than they were during or before the conflict. Considering the potential consequences and the lack of reason to trust the opposition, actors that are unsure or that wish to better their position might therefore resort to tilting the playing field or to challenging the electoral outcome.
+
+The motivation can, however, differ depending on whether the act of undermining an election is done before (including during) or after an election. Prior to or during an election, an actor's motivation is often to influence turnout or vote choice (von Borzyskowski 2019, 36). It is not always the case that the violence perpetrator is seeking to win votes in its favor; by targeting voters in the opposition's stronghold, actors can signal that the opposition is incapable of providing security and hence, sway voters to vote against the opposition or not vote at all (Birnir and Ghodes 2018). Conversely, if violence ensues in the aftermath of an election, the rationale is likely to stem from the loser's dissatisfaction with the electoral outcome, or the winner's attempt at repressing the loser or a target group (von Borzyskowski 2019, 36).
+
+Considering the different dynamics, this chapter argues that the severity of violence is likely higher where both pre- and post-electoral violence take place than if only post-electoral violence occurs. Low electoral quality both before and after an election suggest that the state and its contenders are likely to be extremely uncertain about their odds of winning. Hence, before the election, one or both sides might be inclined to steal an election to secure a win. After a loss in a stolen election, the losing side might also be less willing to accept the outcome since it cannot be certain that it would not attain greater gains by returning to war. Implicit in this argument is thus a proposition that pre-electoral violence has the tendency to precipitate post-electoral violence, and because they are symptomatic of an underlying balance of power, the severity of violence is likely to be high.
+
+Where the quality of election is low only in the aftermath of an election, the overall level of violence is expected to be less severe than the above scenario, although two dynamics can drive this expected observation. The first is when violence is undertaken by the winner. In this case, since the winning party is seeking to eliminate its competitors or to marginalize groups of voters, violence is likely to be more targeted and hence, less severe than if there were a return of the conflict to the battlefield. The second is when violence is pursued by the loser. If the pre-election period is non-violent and the loser refuses to accept the outcome, the losing party's call for a violent contestation against the state can be condemned by the international community or the domestic population, and hence lead the party to be starved of resources that might come from one or both sources.
+
+A missing set of configuration in this argument includes those where a strong actor could resort to the threat or use of force  before an election. The reason for this omission stems from the fact that nearly no post-conflict election in the post-Cold War era is without international assistance. Given that the presence of international monitors deters actors from using force (von Borzyskowski 2019), the probability that a strong actor would further use force to marginalize its competitors prior to elections should be low. In post-conflict settings, moreover, because the winning party that would form the state will probably remain reliant on foreign (democratic) aid, the risk of being condemned for its lack of commitment to democracy can be still more detrimental in the long run. That said, the winner, which is also likely to be the stronger actor due to the tendency for security voting in such settings (Daly 2019; Wantchekon 2004), might have less reservation about repression after an election because at that time, international monitoring bodies would have left, and international attention is likely to have been diverted (Paris 2004).
+
+\noindent A summary of the observable implications is as follows:
+
+\begin{enumerate}
+\item The number of deaths is higher where electoral quality is low both before and after an election than where the quality is low only after an election.
+\item Where the electoral quality is low throughout an election, the (military) power between the contending actors is at parity.
+\item Low electoral quality following an election can be due either to the winner's repression, or the loser's dissatisfaction with the electoral outcome.
+\item Repression in the aftermath of elections is targeted at either the (former) rebels or specific groups within the population.
+\item A loser's unjustified challenge of an electoral outcome is met with international condemnation or the loss of domestic support (e.g. low recruitment rates and whistle-blowing).
+\item Even if there is a stronger actor (often the case following a military victory), it is unlikely that the actor would commit pre-electoral violence if an international monitoring body is present.
+\end{enumerate}
+
+\section*{Concepts and Measures} % both ECAV and GED are events data % Goertz et al's indicators
+% GED corrects for the BRD problem by including civilian deaths -- p. 24
+
+This section proceeds with conceptualizing and operationalizing the variables in the argument. As discussed above, the severity of violence refers to the number of deaths. Data on this variable will be gathered from the Post-Conflict Peace Barometer (PCPB) (Goertz, Owsiak and Diehl 2020), which puts together information on different forms and levels of militarized civil conflicts from the Uppsala Conflict Data Program (UCDP) Georeferenced Event Dataset (GED) (Högbladh 2019; Sundberg and Melander 2013).
+
+Data from the GED differ from those in other UCDP datasets because the unit of analysis is an event, and the death counts are not limited to battle-related deaths. In other words, the number of deaths based on GED is not standardized by an annual count of fatalities, entries of the number of deaths is not limited to the conventional thresholds of 25 or 1,000, and it includes civilian deaths that may be ``collateral'' to fighting on the battleground (Högbladh 2019, 4; 24). Altogether, the use of a GED-based barometer is thus preferred because it overcomes the two related limitations in the civil war recurrence literature: a dichotomous variable, and the loss of information on violence prior to a recurrence.
+
+To stay close to the argument, this chapter will modify the PCPB slightly. The PCPB scores a country's peacefulness based on an aggregate of five militarized civil conflicts, namely, civil war and terrorism; genocide; one-sided violence; large-scale human rights violations; and coups. However, the argument relates only to the possibility of a civil war, one-sided violence and repression. Therefore, information on genocide and coups will be removed from the analysis. Fortunately, an advantage of using the PCPB is that it is intended to be modular, which means, each of these dimensions can be excluded to fit a research's purpose.
+
+On the independent variable side, the same variable that is used as the dependent variable in Chapter 1 will be brought forward. The only difference is that because the argument takes into consideration pre- (including during) and post-election dynamics, the measure on the quality of elections will also be distinguished into the respective period. This distinction can be made with data from the Electoral Contention and Violence (ECAV) dataset. Even though the dataset does not specifically code the period, a variable can be created by taking the difference between the event date and the election date.
+
+To note, even though actors' behavior features strongly in the argument, this condition will only be analyzed in detail in the case studies because they are specified primarily to show the different pathways by which electoral violence can lead to a more severe extent of violence. They do not make a difference, broadly speaking, to the main hypothesis that the occurrence of both pre- and post-electoral violence is likely to lead to a greater number of deaths than if there were only post-electoral violence.
+
+\section*{Conclusion}
+
+This chapter investigates the relationship between electoral quality and the severity of violence in a post-conflict country. Due to the pervasiveness of violence in these elections, post-conflict elections are barely legitimate either in the legal or the popular sense of the word. Hence, the argument in this chapter is consistent with the overarching thesis, that is, low levels of legitimacy lead to high levels of violence.
+
+Next steps in this research would include the need to show evidence to support the assumptions, which include the association between actor motivation and the election period, and the assertion that strong actors are unlikely to commit pre-electoral violence. More thought would also need to be put into selecting an appropriate method for the analysis considering that the occurrence of pre- and post-electoral violence are not necessarily independent phenomenon, and to scaling the independent variable into high or low electoral quality.
+
+\end{document}
